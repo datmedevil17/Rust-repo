@@ -1,0 +1,6 @@
+reference rules
+
+1. two variables can copy same reference
+data race poses a problem
+if we create multiple mutable reference and dont synchronize the write operation this could create a problem
+as we cannot use a var if its reference is borrowed
